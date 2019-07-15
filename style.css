@@ -5,7 +5,6 @@ html {
     /* background-color: rgb(184, 164, 164); */
 }
 
-
 .navigation{
 background-color: rgb(224, 210, 210);
 border: 2px solid rgb(255, 249, 249);
@@ -33,10 +32,17 @@ h1{
     border:solid rgb(111, 84, 84) 3px;
     padding: 10px 20px 10px 20px;
 }
+
 h1, p, .rexipe, .final-p, footer {
 text-align: center;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
+.first-p {
+    position: relative;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    text-align: justify;
 }
 
 .gordon-pic {
@@ -44,6 +50,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     margin:0 auto;
     width: 400px;
     height: 300px;
+    box-shadow: 6px -8px 22px -10px rgb(111, 84, 84);
 }
 
 .recipe {
@@ -53,11 +60,8 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 }
 h2, li {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
 }
 
 .final-p {
     background-color: rgb(148, 124, 124);
-
-
 }
