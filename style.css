@@ -38,7 +38,7 @@ text-align: center;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.first-p {
+.first-p, .final-p {
     position: relative;
     margin-right: 1rem;
     margin-left: 1rem;
@@ -64,4 +64,8 @@ h2, li {
 
 .final-p {
     background-color: rgb(148, 124, 124);
+    /* text-align: justify; */
+}
+.final-p:hover {
+    background-color: rgb(255, 249, 249);
 }
