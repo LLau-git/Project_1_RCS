@@ -19,10 +19,13 @@ border: 0.2rem solid rgb(255, 249, 249);
     background-color: rgb(111, 84, 84);
     color: rgb(255, 249, 249);
     margin-left: 3rem;
+    margin: 0.2rem;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     padding: 0.5rem 1rem 0.5rem 1rem;
+    /* box-sizing: border-box;
+    width: 25%; */
 }
 .all-boxes {
     font-size: 30px;
@@ -33,10 +36,12 @@ border: 0.2rem solid rgb(255, 249, 249);
     border: 0.5rem solid rgb(186, 186, 247, 0.2);
     display: inline-block;
     padding: 1rem;
-    /* width: 5rem;
-    height: 5rem; */
+    width: 5rem;
+    height: 5rem;
     margin: 5% 10% 5% 10%;
     text-align: justify;
+    /* box-sizing: border-box;
+    width: 25%; */
 }
 .box1{
     background-color: #DC8CBB;
