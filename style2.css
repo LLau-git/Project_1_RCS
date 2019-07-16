@@ -2,7 +2,8 @@
 html {
     /* font-size: 62.5%; */
     font-size:20px;
-    background-color: rgb(184, 164, 164, 0.5);
+    /* background-color: rgb(184, 164, 164, 0.5); */
+    background: linear-gradient(35deg, #8CDCAC, #DCD48C);
 }
 
 .navigation{
@@ -24,14 +25,18 @@ border: 0.2rem solid rgb(255, 249, 249);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     padding: 0.5rem 1rem 0.5rem 1rem;
-    /* box-sizing: border-box;
-    width: 25%; */
+    
 }
+.nav-li:hover {
+    transform: scale(1.1);
+}
+
 .all-boxes {
     font-size: 30px;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+/* lai izkārtotu texta laukumus responsīvā stilā, izmantoju display inline block*/
 .box1, .box2, .box3, .box4 {
     border: 0.5rem solid rgb(186, 186, 247, 0.2);
     display: inline-block;
@@ -54,4 +59,37 @@ border: 0.2rem solid rgb(255, 249, 249);
 }
 .box4{
     background-color: #8C93DC;
+}
+
+
+
+.all-boxes2{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+/* spēlējos ar flexbox */
+.boxa, .boxb, .boxc, .boxd{
+    border: 0.5rem solid rgb(186, 186, 247, 0.2);
+    background-color: #DC8CBB;
+    /* text-align: justify; */
+    display: flexbox;
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+    width: 35%;  
+}
+
+.boxa:hover{
+    transform: scale(1.1);
+    transition-duration: 200ms;
+    transform-style: flat;
+}
+.boxd:hover{
+    transform: scale(1.1);
+    transition-duration: 200ms;
+    transform-style: flat;
 }
