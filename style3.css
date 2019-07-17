@@ -37,6 +37,7 @@ border: 0.2rem dotted rgb(165, 169, 221);
 h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 700;
+    color: aliceblue;
     font-style: oblique;
     text-align: center;
 }
